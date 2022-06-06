@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		04742903284B561B008F775F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04742902284B561B008F775F /* AppDelegate.swift */; };
 		04742905284B561B008F775F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04742904284B561B008F775F /* SceneDelegate.swift */; };
-		04742907284B561B008F775F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04742906284B561B008F775F /* ViewController.swift */; };
+		04742907284B561B008F775F /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04742906284B561B008F775F /* TableViewController.swift */; };
 		0474290A284B561B008F775F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04742908284B561B008F775F /* Main.storyboard */; };
 		0474290C284B561E008F775F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0474290B284B561E008F775F /* Assets.xcassets */; };
 		0474290F284B561E008F775F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0474290D284B561E008F775F /* LaunchScreen.storyboard */; };
+		04742917284B58FE008F775F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04742916284B58FE008F775F /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		047428FF284B561B008F775F /* Milestone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Milestone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04742902284B561B008F775F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04742904284B561B008F775F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		04742906284B561B008F775F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04742906284B561B008F775F /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		04742909284B561B008F775F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0474290B284B561E008F775F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0474290E284B561E008F775F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04742910284B561E008F775F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04742916284B58FE008F775F /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				04742902284B561B008F775F /* AppDelegate.swift */,
 				04742904284B561B008F775F /* SceneDelegate.swift */,
-				04742906284B561B008F775F /* ViewController.swift */,
+				04742906284B561B008F775F /* TableViewController.swift */,
+				04742916284B58FE008F775F /* DetailViewController.swift */,
 				04742908284B561B008F775F /* Main.storyboard */,
 				0474290B284B561E008F775F /* Assets.xcassets */,
 				0474290D284B561E008F775F /* LaunchScreen.storyboard */,
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04742907284B561B008F775F /* ViewController.swift in Sources */,
+				04742907284B561B008F775F /* TableViewController.swift in Sources */,
 				04742903284B561B008F775F /* AppDelegate.swift in Sources */,
 				04742905284B561B008F775F /* SceneDelegate.swift in Sources */,
+				04742917284B58FE008F775F /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
